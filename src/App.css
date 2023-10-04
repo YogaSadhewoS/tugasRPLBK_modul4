@@ -1,0 +1,59 @@
+/* App.css */
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 28px;
+  color: #5658e6;
+  margin: 20px 0;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 50%;
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid #575250;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+button {
+  padding: 12px 24px;
+  font-size: 18px;
+  color: #000000;
+  border-color: #b300a4;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.3s;
+}
+
+
+button:hover {
+  background-color: #1fd4b6;
+}
+
+.member-list {
+  text-align: left;
+  margin-top: 10px;
+}
+
+ol {
+  list-style: decimal;
+  padding-left: 20px;
+}
+
+li {
+  font-size: 25px;
+  margin: 10px 0;
+}
